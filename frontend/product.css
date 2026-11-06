@@ -58,3 +58,10 @@ body.suite-product button,body.suite-product a{cursor:pointer!important}
 .su-rail .suite-footer{border-top-width:2px}
 @media(max-width:900px){.su-rail #suite-overview{float:none;width:auto;position:static;min-height:0;border-right:0;border-bottom:1px solid currentColor;padding:0 0 18px;margin:0 0 18px}}
 
+/* ==== footer brand ==== */
+.suite-footer{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.footer-brand{display:flex;align-items:center;gap:8px}
+.footer-logo{width:20px;height:20px;flex-shrink:0}
+.footer-brand strong{font:700 14px/1.2 inherit;letter-spacing:-.01em}
+.footer-brand strong,.footer-brand svg{color:currentColor}
+@media(max-width:600px){.suite-footer{justify-content:center;gap:10px}.footer-brand{order:-1;width:100%;justify-content:center}}
